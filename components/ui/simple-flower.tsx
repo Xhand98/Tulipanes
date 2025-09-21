@@ -118,7 +118,7 @@ export function SimpleFlower({ size = 240, petalCount = 8, duration = 0.6 }: Sim
             </circle>
           </g>
 
-          {/* Subtle overall breathe effect after fully revealed */}
+          {/* Subtle overall breathe effect after fully reveale */}
           <animateTransform
             attributeName="transform"
             type="scale"
