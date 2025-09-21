@@ -5,6 +5,7 @@ import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { FlipCard } from "@/components/ui/flip-card"
 import { OnielkisModal } from "@/components/ui/onielkis-modal"
+import { SimpleFlower } from "@/components/ui/simple-flower"
 import { Heart, Sparkles, Sun, Flower2, Star, Gift } from "lucide-react"
 
 export default function FloresAmarillas() {
@@ -188,6 +189,16 @@ export default function FloresAmarillas() {
             {"Con todo mi amor ❤️"}
           </Button>
         </Card>
+      </section>
+
+      {/* Flower Animation */}
+      <section className="w-full bg-gradient-to-b from-background to-accent/10">
+        <div className="container mx-auto px-4 py-8">
+          <h2 className="text-3xl font-serif text-center text-primary mb-6">
+            Una flor amarilla para ti 🌻
+          </h2>
+          <SimpleFlower />
+        </div>
       </section>
 
       {/* Footer */}
