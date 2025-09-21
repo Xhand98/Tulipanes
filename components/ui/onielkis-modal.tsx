@@ -11,11 +11,11 @@ interface OnielkisModalProps {
 
 export function OnielkisModal({ isOpen, onClose }: OnielkisModalProps) {
   const nicknames = [
-    "Onielkis",
-    "Titita",
-    "Vaionetta", 
-    "Boninini",
-    "Chiquistrikis"
+    "Francelys",
+    "Mi amorcito",
+    "Princesita", 
+    "Mi reina",
+    "My little star"
   ]
 
   return (
@@ -68,9 +68,9 @@ export function OnielkisModal({ isOpen, onClose }: OnielkisModalProps) {
             "Mi amor más grande"
           </p>
           <p className="text-muted-foreground leading-relaxed text-pretty">
-            Cada nombre es una forma diferente de decirte cuánto te amo. 
-            Eres mi Onielkis preciosa, mi Titita adorada, mi Vaionetta hermosa, 
-            mi Boninini querida, mi Chiquistrikis del alma.
+            Cada nombre es una forma diferente de decirte cuánto te amo.
+            Eres mi Francelys preciosa, mi amorcito adorado, mi princesita hermosa,
+            mi reina querida, my little star del alma.
           </p>
         </div>
 
